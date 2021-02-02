@@ -1,4 +1,5 @@
 import telebot
+from telebot import types
 import datetime
 import pandas as pd
 
@@ -8,7 +9,7 @@ except ImportError:
     from PIL import Image
 import tg_analytic
 
-bot = telebot.TeleBot("1372969532:AAEVJgqxGHbza1FQxFIYm0qfiawmLnRz_vo")
+bot = telebot.TeleBot("1161541935:AAFrkjEpbohPo0z75Fx4TXHKFcv4wChjV9Q")
 
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
 keyboard1.row('Даша', 'Маша', 'Саша')
